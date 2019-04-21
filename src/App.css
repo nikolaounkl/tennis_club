@@ -23,7 +23,7 @@ body {
 }
 
 * {
-    transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out !important;
 }
 
 .navbar-brand .navbar-item:hover {
@@ -46,6 +46,10 @@ body {
     background: rgba(0, 0, 0, 0.8);
 }
 
+.hero-body {
+    padding-top: 4rem !important;
+}
+
 #home {
     background-image: url("/images/bg1.jpg");
     background-attachment: fixed;
@@ -58,4 +62,9 @@ body {
     letter-spacing: 4px;
     padding-top: 10px;
     color: #fff;
+}
+
+.fas.fa-male {
+    color: #fff;
+    padding: 1px;
 }

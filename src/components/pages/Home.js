@@ -6,7 +6,7 @@ export default function Home() {
             <div className="overlay is-fullheight is-overlay" />
             <div className="hero-body">
                 <div className="container has-text-centered">
-                    <h1 className="title is-1 is-size-2-mobile has-text-danger has-text-weight-light	">
+                    <h1 className="title is-1 is-size-2-mobile has-text-danger has-text-weight-light">
                         Abteilung <span className="has-text-white">Tennis</span>
                     </h1>
                     <h2 className="subtitle is-5 has-text-weight-light	">

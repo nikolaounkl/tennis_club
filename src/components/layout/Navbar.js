@@ -56,42 +56,48 @@ export default class Navbar extends Component {
                             <NavLink
                                 to="/verein"
                                 className="navbar-item"
-                                activeClassName="active"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
                             >
-                                Unser Verein
+                                Verein
                             </NavLink>
                             <NavLink
                                 to="/vorstand"
                                 className="navbar-item"
-                                activeClassName="active"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
                             >
                                 Vorstand
                             </NavLink>
                             <NavLink
                                 to="/training"
                                 className="navbar-item"
-                                activeClassName="active"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
                             >
                                 Training
                             </NavLink>
                             <NavLink
                                 to="/sports"
                                 className="navbar-item"
-                                activeClassName="active"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
                             >
                                 Sports
                             </NavLink>
                             <NavLink
                                 to="/platzbelegung"
                                 className="navbar-item"
-                                activeClassName="active"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
                             >
                                 Platzbelegung
                             </NavLink>
                             <NavLink
                                 to="/lageplan"
                                 className="navbar-item"
-                                activeClassName="active"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
                             >
                                 Lageplan
                             </NavLink>
