@@ -6,6 +6,8 @@ export default function Vorstand() {
             <div className="overlay is-fullheight is-overlay" />
             <div className="hero-body">
                 <div className="container has-text-centered">
+                    <h1 className="title is-4">Vorstand</h1>
+                    <hr className="has-background-danger" />
                     <div className="columns">
                         <div className="column">
                             <div className="card has-background-black has-text-white">
@@ -28,7 +30,7 @@ export default function Vorstand() {
                                             </p>
                                         </div>
                                     </div>
-                                    <hr />
+
                                     <div className="content">
                                         <div>
                                             <span className="icon">
@@ -68,7 +70,7 @@ export default function Vorstand() {
                                             </p>
                                         </div>
                                     </div>
-                                    <hr />
+
                                     <div className="content">
                                         <div>
                                             <span className="icon">
@@ -107,7 +109,7 @@ export default function Vorstand() {
                                             </p>
                                         </div>
                                     </div>
-                                    <hr />
+
                                     <div className="content">
                                         <div>
                                             <span className="icon">
@@ -151,7 +153,7 @@ export default function Vorstand() {
                                             </p>
                                         </div>
                                     </div>
-                                    <hr />
+
                                     <div className="content">
                                         <div>
                                             <span className="icon">
@@ -190,7 +192,7 @@ export default function Vorstand() {
                                             </p>
                                         </div>
                                     </div>
-                                    <hr />
+
                                     <div className="content">
                                         <div>
                                             <span className="icon">

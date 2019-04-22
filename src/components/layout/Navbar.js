@@ -78,20 +78,20 @@ export default class Navbar extends Component {
                                 Training
                             </NavLink>
                             <NavLink
-                                to="/sports"
-                                className="navbar-item"
-                                activeClassName="is-active"
-                                onClick={this.toggleMenu}
-                            >
-                                Sports
-                            </NavLink>
-                            <NavLink
                                 to="/platzbelegung"
                                 className="navbar-item"
                                 activeClassName="is-active"
                                 onClick={this.toggleMenu}
                             >
                                 Platzbelegung
+                            </NavLink>
+                            <NavLink
+                                to="/sports"
+                                className="navbar-item"
+                                activeClassName="is-active"
+                                onClick={this.toggleMenu}
+                            >
+                                Sports
                             </NavLink>
                             <NavLink
                                 to="/lageplan"
