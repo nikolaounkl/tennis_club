@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Vorstand() {
     return (
-        <div className="hero is-danger is-fullheight">
+        <div className="hero is-danger is-fullheight" id="vorstand">
             <div className="overlay is-fullheight is-overlay" />
             <div className="hero-body">
                 <div className="container has-text-centered">

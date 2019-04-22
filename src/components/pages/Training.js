@@ -17,17 +17,17 @@ export default function Training() {
                             Sportwart Konstantin Kleim.
                         </p>
                         <br />
-                        <div className="card has-background-white">
+                        <div className="card has-background-black">
                             <div className="card-content">
                                 <div>
-                                    <p className="title is-5 has-text-black">
+                                    <p className="title is-5 has-text-white">
                                         <i className="fas fa-male" />{" "}
                                         Einzeltraining - 28€
                                     </p>
                                 </div>
                                 <br />
                                 <div>
-                                    <p className="title is-5 has-text-black">
+                                    <p className="title is-5 has-text-white">
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" /> Pro Person
                                         - 14€
@@ -35,7 +35,7 @@ export default function Training() {
                                 </div>
                                 <br />
                                 <div>
-                                    <p className="title is-5 has-text-black">
+                                    <p className="title is-5 has-text-white">
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" /> Pro Person
@@ -44,7 +44,7 @@ export default function Training() {
                                 </div>
                                 <br />
                                 <div>
-                                    <p className="title is-5 has-text-black">
+                                    <p className="title is-5 has-text-white">
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" />

@@ -11,7 +11,7 @@ export default function Sports() {
                         <hr className="has-background-danger" />
                         <div>
                             <a
-                                className="button is-fullwidth is-medium is-white"
+                                className="button is-fullwidth is-black"
                                 href="http://tvbb.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/groupPage?championship=TVBB+Sommer+2019&group=1428108"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function Sports() {
                         </div>
                         <div>
                             <a
-                                className="button is-fullwidth is-medium is-white"
+                                className="button is-fullwidth is-black"
                                 href="http://tvbb.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/groupPage?championship=TVBB+Sommer+2019&group=1428055"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -41,7 +41,7 @@ export default function Sports() {
                         </div>
                         <div>
                             <a
-                                className="button is-fullwidth is-medium is-white"
+                                className="button is-fullwidth is-black"
                                 href="http://tvbb.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/groupPage?championship=TVBB+Sommer+2019&group=1428135"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export default function Sports() {
                         </div>
                         <div>
                             <a
-                                className="button is-fullwidth is-medium is-white"
+                                className="button is-fullwidth is-black"
                                 href="http://tvbb.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/groupPage?championship=TVBB+Sommer+2019&group=1427965"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export default function Sports() {
                         </div>
                         <div>
                             <a
-                                className="button is-fullwidth is-medium is-white"
+                                className="button is-fullwidth is-black"
                                 href="http://tvbb.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/groupPage?championship=TVBB+Sommer+2019&group=1428027"
                                 target="_blank"
                                 rel="noopener noreferrer"

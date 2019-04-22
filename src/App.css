@@ -48,11 +48,11 @@ body {
 }
 
 #home {
-    background-image: url("/images/bg1.jpg");
+    background-image: url("/images/tennisplatz7.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
 }
 
 #home .subtitle {
@@ -61,12 +61,15 @@ body {
     color: #fff;
 }
 
-#verein {
-    background-image: url("/images/tennisplatz5.jpg");
+#verein,
+#vorstand,
+#platzbelegung,
+#lageplan {
+    background-image: url("/images/bg1.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 #training {
@@ -94,7 +97,7 @@ body {
 }
 
 .fas.fa-male {
-    color: #000;
+    color: #ff3860;
     padding: 1px;
 }
 
@@ -109,6 +112,11 @@ iframe {
 
 #sports a {
     margin-bottom: 10px;
+    box-shadow: 0 0 2px 0 #fff;
+}
+
+#sports i {
+    color: #ff3860;
 }
 
 #sports a:hover {
@@ -117,4 +125,9 @@ iframe {
 
 .button {
     transition: all 0.1s ease-in-out !important;
+}
+
+.card,
+.image {
+    box-shadow: 0 0 2px 0 #fff !important;
 }
