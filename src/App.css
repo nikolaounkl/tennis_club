@@ -24,9 +24,10 @@ body {
 
 .navbar-brand .navbar-item {
     color: #ff3860 !important;
+    transition: all 0.1s ease-in-out !important;
 }
 
-.navbar-item {
+.navbar-menu .navbar-item {
     color: #000 !important;
     font-weight: 500;
     transition: all 0.1s ease-in-out !important;
@@ -34,6 +35,14 @@ body {
 
 .navbar-item:hover {
     color: #ff3860 !important;
+}
+
+.level .link:hover {
+    color: #fff !important;
+}
+
+.level .link {
+    transition: all 0.1s ease-in-out !important;
 }
 
 .overlay {
@@ -45,6 +54,7 @@ body {
 
 .hero-body {
     padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
 }
 
 #home {
