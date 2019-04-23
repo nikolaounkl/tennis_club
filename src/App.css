@@ -22,7 +22,7 @@ body {
     display: none;
 }
 
-.navbar-brand .navbar-item:hover {
+.navbar-brand .navbar-item {
     color: #ff3860 !important;
 }
 

@@ -9,7 +9,6 @@ export default function Lageplan() {
                     <div className="columns">
                         <div className="column is-half-desktop">
                             <h1 className="title is-4">Lageplan</h1>
-                            <hr className="has-background-danger" />
                             <p>
                                 Unsere familiäre Tennisanlage befindet sich im
                                 Norden des Bezirks Marzahn in Berlin zwischen

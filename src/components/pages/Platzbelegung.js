@@ -8,7 +8,6 @@ export default function Platzbelegung() {
                 <div className="container has-text-centered has-text-justified">
                     <div className="column is-two-thirds-desktop">
                         <h1 className="title is-4">Platzbelegung</h1>
-                        <hr className="has-background-danger" />
                         <p>
                             In der Sommersaison spielen wir auf unseren drei
                             Sandplätzen. An Wochenenden von Mai bis September

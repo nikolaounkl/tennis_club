@@ -8,7 +8,6 @@ export default function Sports() {
                 <div className="container has-text-centered">
                     <div className="column is-half-desktop">
                         <h1 className="title">Sports</h1>
-                        <hr className="has-background-danger" />
                         <div>
                             <a
                                 className="button is-fullwidth is-black"

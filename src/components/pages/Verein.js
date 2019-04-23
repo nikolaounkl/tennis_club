@@ -14,7 +14,6 @@ export default class Verein extends Component {
                     <div className="container has-text-centered has-text-justified">
                         <div className="column is-two-thirds-desktop">
                             <h1 className="title is-4">Unser Verein</h1>
-                            <hr className="has-background-danger" />
                             <p>
                                 Sie möchten einen Verein mit Herz und familiärer
                                 Atmosphäre, der Aktivitäten für die ganze

@@ -8,7 +8,6 @@ export default function Training() {
                 <div className="container has-text-left">
                     <div className="column is-half-desktop">
                         <h1 className="title is-4">Tennistraining bei uns</h1>
-                        <hr className="has-background-danger" />
                         <p>
                             Die Preise unseres Trainingsangebotes sind abhängig
                             von der Gruppengröße und werden pro Stunde (60
