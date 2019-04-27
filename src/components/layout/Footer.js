@@ -3,17 +3,17 @@ import React, { Component } from "react";
 export default class Footer extends Component {
     impresium = () => {
         window.open(
-            "http://" + window.location.hostname + "/images/impresium.pdf"
+            "http://www.tennis-fuechse-marzahn.de/images/verein-impressum.pdf"
         );
     };
     Datenschutz = () => {
         window.open(
-            "http://" + window.location.hostname + "/images/datenschutz.pdf"
+            "http://www.tennis-fuechse-marzahn.de/images/datenschutz.pdf"
         );
     };
     agb = () => {
         window.open(
-            "http://" + window.location.hostname + "/images/agb_training.pdf"
+            "http://www.tennis-fuechse-marzahn.de/images/agb_training.pdf"
         );
     };
     render() {
@@ -21,7 +21,16 @@ export default class Footer extends Component {
             <nav className="level navbar is-black is-fixed-bottom is-hidden-mobile">
                 <div className="level-item has-text-centered">
                     <p className="link has-text-white is-size-7">
-                        Copyright © 2018 T.S.V. Marzahner Füchse e.V.
+                        Copyright © 2018 T.S.V. Marzahner Füchse e.V. | Created
+                        by
+                        <a
+                            className="link has-text-danger"
+                            href="http://www.nikolaounikolaos.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span className="is-size-7"> NN</span>
+                        </a>
                     </p>
                 </div>
                 <div className="level-item">
@@ -47,16 +56,6 @@ export default class Footer extends Component {
                     >
                         <span className="is-size-7">AGB Training</span>
                     </button>
-                </div>
-                <div className="level-item">
-                    <a
-                        className="link button is-black has-text-danger"
-                        href="http://www.nikolaounikolaos.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <span className="is-size-7">Created by NN</span>
-                    </a>
                 </div>
             </nav>
         );

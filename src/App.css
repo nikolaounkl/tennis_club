@@ -129,11 +129,13 @@ iframe {
     color: #ff3860;
 }
 
-#sports a:hover {
-    color: #ff3860;
+#sports a:hover,
+a.map-link:hover {
+    color: #ff3860 !important;
 }
 
-.button {
+.button,
+.map-link {
     transition: all 0.1s ease-in-out !important;
 }
 

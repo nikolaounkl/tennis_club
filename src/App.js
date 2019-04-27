@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Verein from "./components/pages/Verein";
 import Vorstand from "./components/pages/Vorstand";
@@ -15,7 +15,7 @@ import NotFound from "./components/pages/NotFound";
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <div className="App">
                     <Navbar />
                     <Footer />
@@ -35,7 +35,7 @@ class App extends Component {
                     <Route path="/lageplan" exact component={Lageplan} />
                     <Route component={NotFound} />
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         );
     }
 }

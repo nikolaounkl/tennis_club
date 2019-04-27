@@ -27,19 +27,15 @@ export default function Lageplan() {
                                 Verkehrsmitteln zu erreichen.
                             </p>
                             <br />
-                            <i className="fas fa-car fa-lg" />
-                            <i className="fas fa-train fa-lg" />
-                            <i className="fas fa-bus fa-lg" />
-                            <i className="fas fa-bicycle fa-lg" />
-                            <i className="fas fa-walking fa-lg" />
-                        </div>
-                        <div className="column is-half-desktop">
-                            <iframe
-                                src="http://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d11288.856829600325!2d13.559298990818792!3d52.56679278143259!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d52.567119999999996!2d13.55996!5e0!3m2!1sen!2sus!4v1521145257039"
-                                title="map"
-                                frameBorder="0"
-                                allowFullScreen
-                            />
+                            <a
+                                className="has-text-white map-link"
+                                href="https://goo.gl/maps/S8FKYnUSJhivyWVN7"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fas fa-map-marker-alt has-text-danger" />
+                                Geraer Ring 30, 12689 Berlin
+                            </a>
                         </div>
                     </div>
                 </div>
