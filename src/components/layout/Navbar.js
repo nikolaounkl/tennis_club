@@ -26,8 +26,6 @@ export default class Navbar extends Component {
         if (this.node.contains(e.target)) {
             return;
         }
-
-        this.toggleMenu();
     };
     render() {
         return (
