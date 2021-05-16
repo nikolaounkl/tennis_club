@@ -72,7 +72,7 @@ export default function Vorstand() {
                       <span className="icon">
                         <i className="fas fa-phone" />
                       </span>
-                      <span>(0176) 84632180</span>
+                      <span>(0176) 70367735</span>
                     </div>
                   </div>
                 </div>
