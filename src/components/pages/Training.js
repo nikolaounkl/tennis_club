@@ -21,7 +21,7 @@ export default function Training() {
                                 <div>
                                     <p className="title is-5 has-text-white">
                                         <i className="fas fa-male" />{" "}
-                                        Einzeltraining - 28€
+                                        Einzeltraining - 30€
                                     </p>
                                 </div>
                                 <br />
@@ -29,7 +29,7 @@ export default function Training() {
                                     <p className="title is-5 has-text-white">
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" /> Pro Person
-                                        - 14€
+                                        - 15€
                                     </p>
                                 </div>
                                 <br />
@@ -38,7 +38,7 @@ export default function Training() {
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" /> Pro Person
-                                        - 9€
+                                        - 10€
                                     </p>
                                 </div>
                                 <br />
@@ -48,7 +48,7 @@ export default function Training() {
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" />
                                         <i className="fas fa-male" /> Pro Person
-                                        - 7€
+                                        - 8€
                                     </p>
                                 </div>
                             </div>
